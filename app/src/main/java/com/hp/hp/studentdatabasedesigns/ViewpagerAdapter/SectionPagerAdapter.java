@@ -1,4 +1,4 @@
-package com.hp.hp.studentdatabasedesigns;
+package com.hp.hp.studentdatabasedesigns.ViewpagerAdapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -8,7 +8,7 @@ import com.hp.hp.studentdatabasedesigns.Fragments.StudViewAttendance;
 import com.hp.hp.studentdatabasedesigns.Fragments.StudViewResult;
 
 //implement methods and constructor
-class SectionPagerAdapter extends FragmentPagerAdapter {
+public class SectionPagerAdapter extends FragmentPagerAdapter {
     public SectionPagerAdapter(FragmentManager fm) {
         super(fm);
     }

@@ -1,4 +1,4 @@
-package com.hp.hp.studentdatabasedesigns;
+package com.hp.hp.studentdatabasedesigns.ViewPagerAnimations;
 
 import android.support.v4.view.ViewPager;
 import android.view.View;

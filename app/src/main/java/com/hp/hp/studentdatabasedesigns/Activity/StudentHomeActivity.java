@@ -1,4 +1,4 @@
-package com.hp.hp.studentdatabasedesigns;
+package com.hp.hp.studentdatabasedesigns.Activity;
 
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
@@ -6,9 +6,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
+import com.hp.hp.studentdatabasedesigns.R;
+import com.hp.hp.studentdatabasedesigns.ViewPagerAnimations.ZoomOutPageTransformer;
+import com.hp.hp.studentdatabasedesigns.ViewpagerAdapter.SectionPagerAdapter;
+
 public class StudentHomeActivity extends AppCompatActivity {
     private ViewPager mViewPager;
     SectionPagerAdapter mSectionPagerAdapter;
+
     private TabLayout mTabLayout;
     Toolbar mToolbar;
     @Override
