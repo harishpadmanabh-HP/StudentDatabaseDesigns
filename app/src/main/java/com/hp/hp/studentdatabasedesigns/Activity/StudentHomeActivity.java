@@ -24,7 +24,7 @@ public class StudentHomeActivity extends AppCompatActivity {
 //add toolbar
         mToolbar=findViewById(R.id.mainpagetoolbar);
         setSupportActionBar(mToolbar);
-        getSupportActionBar().setTitle("   Monisha L");//set title to toolbar
+        getSupportActionBar().setTitle("Monisha L");//set title to toolbar
         //getSupportActionBar().setElevation(100);
 //tabs
         mViewPager=findViewById(R.id.tabpager);

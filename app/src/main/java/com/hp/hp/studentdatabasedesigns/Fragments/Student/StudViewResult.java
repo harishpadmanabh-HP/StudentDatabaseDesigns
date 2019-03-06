@@ -1,4 +1,4 @@
-package com.hp.hp.studentdatabasedesigns.Fragments;
+package com.hp.hp.studentdatabasedesigns.Fragments.Student;
 
 
 import android.os.Bundle;

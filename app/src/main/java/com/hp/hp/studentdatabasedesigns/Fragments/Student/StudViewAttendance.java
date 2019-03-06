@@ -1,4 +1,4 @@
-package com.hp.hp.studentdatabasedesigns.Fragments;
+package com.hp.hp.studentdatabasedesigns.Fragments.Student;
 
 
 import android.os.Bundle;
@@ -30,7 +30,7 @@ public class StudViewAttendance extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view= inflater.inflate(R.layout.fragment_stud_view_result, container, false);
+        View view= inflater.inflate(R.layout.fragment_blank, container, false);
 
 
 
